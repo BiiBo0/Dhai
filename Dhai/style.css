@@ -4,28 +4,15 @@ body{
 .custom-header {
     background-color: #102820;
     padding: 15px 0;
-    /* background-image: url(images/Dark\ Starry\ Night\ Background\ Landscape\ 3d\ Wallpaper\ Of\ Mountains\ Trees\ And\ Moon\ Against\ A\ Black\ Backgrounds\ _\ JPG\ Free\ Download\ -\ Pikbest.jfif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
 
 }
 #name{
 
-    /* font-family: 'Katibeh', cursive; */
     font-weight: 900;
     font-size: 3rem;
-    /* right: 10%;
-    top: 1%; */
-    /* background-color: #ff0000; */
     transform: rotateZ(-5deg);
     color: white;
-    /* color: #f8f9f4;
-    text-shadow: 1px 1px 2px #000; */
-
-    /* text-shadow: #502B0F; */
     text-shadow: 0 5px 6px rgba(0, 0, 0, 0.7);
-    z-index: 9999999;
     
 
 }
@@ -48,60 +35,9 @@ body{
     margin: 0;
 }
 
-.nav-link {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-    color: rgba(255, 255, 255, 0.8) !important;
-}
-
-.dropdown-toggle::after {
-    margin-left: 5px;
-}
-
-
-.dropdown-menu {
-    background-color: white;
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.dropdown-item:hover {
-    background-color: #f8f9fa;
-}
-
 .card{
     height:370px;
     width:48%;
     background-color: rgb(255, 229, 194);
 }
 
-/* .input-group .form-control {
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-}
-
-.input-group .form-control::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.input-group .form-control:focus {
-    border-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
-    background-color: rgba(255, 255, 255, 0.15);
-    color: white;
-}
-
-.btn-outline-light {
-    border-color: rgba(255, 255, 255, 0.3);
-}
-
-.btn-outline-light:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.5);
-} */

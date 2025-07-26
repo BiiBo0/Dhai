@@ -1,17 +1,3 @@
-// Toggle mobile menu
-// function toggleMobileMenu() {
-//     const mobileNav = document.getElementById('mobileNav');
-//     const menuBtn = document.getElementById('mobileMenuBtn');
-//     const icon = menuBtn.querySelector('i');
-    
-//     if (mobileNav.style.display === 'none' || mobileNav.style.display === '') {
-//         mobileNav.style.display = 'block';
-//         icon.className = 'fas fa-times';
-//     } else {
-//         mobileNav.style.display = 'none';
-//         icon.className = 'fas fa-bars';
-//     }
-// }
 
 (function(){
     var imageCount = 3;
@@ -29,35 +15,4 @@
     itemsSection.innerHTML = cartoona;
 })();
 
-// Close mobile menu when clicking outside
-document.addEventListener('click', function(event) {
-    const mobileNav = document.getElementById('mobileNav');
-    const menuBtn = document.getElementById('mobileMenuBtn');
-    
-    if (!menuBtn.contains(event.target) && !mobileNav.contains(event.target)) {
-        if (mobileNav.style.display === 'block') {
-            toggleMobileMenu();
-        }
-    }
-});
-
-
-// Initialize page
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Header loaded successfully');
-    
-    // Add smooth scrolling for anchor links
-    const links = document.querySelectorAll('a[href^="#"]');
-    links.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-});
 
