@@ -15,4 +15,33 @@
 //     itemsSection.innerHTML = cartoona;
 // })();
 
+// main.js
+document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.card');
+    
+    // Function to check if element is in viewport
+    function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+            rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.75 &&
+            rect.bottom >= 0
+        );
+    }
+    
+    // Function to handle scroll events
+    function handleScroll() {
+        cards.forEach(card => {
+            if (isInViewport(card)) {
+                card.classList.add('visible');
+            }
+        });
+    }
+    
+    // Initial check in case some cards are already visible
+    handleScroll();
+    
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+});
+
 
