@@ -36,8 +36,12 @@ body{
 }
 
 .card{
-    height:370px;
-    width:48%;
-    background-color: rgb(255, 229, 194);
+    height:320px;
+    width:98%;
+    background-color: #D7BFA3;
+}
+
+.card img{
+    height: 250px;
 }
 
